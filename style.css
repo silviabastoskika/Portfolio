@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.my-image {
+    width : 200px;
+}
+
+body {
+  margin: 20px;
+}
+
+ul li:nth-of-type(even) {
+  border: 1px solid red;
+}
+
+ul > li:hover:nth-of-type(7) {
+    background-color: aqua;
+}
